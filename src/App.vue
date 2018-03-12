@@ -106,15 +106,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  height: 100%;
-  align-items: center;
-}
-.logo {
-  margin: 20px;
-  font-family: "Montserrat";
-  font-size: 1.8em;
-  text-align: left;
+  text-align: center; height: 100%; align-items: center; } .logo { margin: 20px; font-family: "Montserrat"; font-size: 1.8em; text-align: left;
   align-self: flex-start;
 }
 .description {
