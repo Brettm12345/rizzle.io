@@ -1,0 +1,23 @@
+body {
+  font-family: $font-stack;
+}
+
+.intro {
+  background-color: $blue;
+}
+
+.header {
+  font-family: $logo-font;
+  font-weight: heavy;
+  text-tranform: capitalize;
+}
+
+.tagline {
+  font-style: Bold Italic;
+  font-size: 80px;
+}
+
+.description {
+  font-weight: Bold;
+  font-size: 20px;
+}
