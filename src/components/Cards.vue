@@ -22,64 +22,64 @@
 </script>
 
 <style scoped>
-img {
-  height: 96px;
-  width: 96px;
-  align-self: center;
-  margin: 20px;
-}
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.card {
-  border-radius: 4px;
-  background-color: #fefefe;
-  margin: 20px;
-  width: 400px;
-  padding: 20px;
-  height: 420px;
-  display: flex;
-  flex-direction: column;
-  box-shadow: 10px 10px 20px rgba(111, 172, 242, 0.2), 0 5px 15px rgba(0,0,0,.1);
-  text-align: center;
-  position: relative;
-  transition: ease 0.3s;
-  font-size: 24px;
-}
-.card:hover {
-  box-shadow: 10px 10px 20px rgba(111, 172, 242, 0.4), 0 5px 15px rgba(0,0,0,.2);
-}
-@media(max-width: 450px) {
-  .card {
-    font-size: 20px;
+  img {
+    height: 96px;
+    width: 96px;
+    align-self: center;
+    margin: 20px;
   }
-}
-@media(max-width: 320px) {
-  .card {
-    font-size: 18px;
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
-}
-@media(max-width: 280px) {
   .card {
-    font-size: 16px;
+    border-radius: 4px;
+    background-color: #fefefe;
+    margin: 20px;
+    width: 400px;
+    padding: 20px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px rgba(111, 172, 242, 0.2), 0 5px 15px rgba(0,0,0,.1);
+    text-align: center;
+    position: relative;
+    transition: ease 0.3s;
+    font-size: 24px;
   }
-}
-@media(max-width: 230px) {
-  .card {
-    font-size: 14px;
+  .card:hover {
+    box-shadow: 10px 10px 20px rgba(111, 172, 242, 0.4), 0 5px 15px rgba(0,0,0,.2);
   }
-}
-.title {
-  color: #000;
-  font-size: 1.5em;
-  font-weight: Bold;
-  margin: 8px;
-}
-.message {
-  color: #808080;
-  font-size: 1em;
-  font-weight: Bold;
-}
+  @media(max-width: 450px) {
+    .card {
+      font-size: 20px;
+    }
+  }
+  @media(max-width: 320px) {
+    .card {
+      font-size: 18px;
+    }
+  }
+  @media(max-width: 280px) {
+    .card {
+      font-size: 16px;
+    }
+  }
+  @media(max-width: 230px) {
+    .card {
+      font-size: 14px;
+    }
+  }
+  .title {
+    color: #000;
+    font-size: 1.5em;
+    font-weight: Bold;
+    margin: 8px;
+  }
+  .message {
+    color: #808080;
+    font-size: 1em;
+    font-weight: Bold;
+  }
 </style>
