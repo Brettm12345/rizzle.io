@@ -1,7 +1,7 @@
 <template>
   <div class="cards">
     <div v-for="(card, index) in cards" class="card" :key="index" v-scroll-reveal.reset="{ delay: 250*(index+1), duration: 500, rotate: {x: 5, y: 0, z:10} }">
-      <img class="icon" :src="path(card.icon)"/>
+      <!-- <img class="icon" :src="path(card.icon)"/> -->
       <div class="title">{{ card.title }}</div>
       <div class="message">{{ card.message }}</div>
     </div>
@@ -9,16 +9,16 @@
 </template>
 
 <script>
-export default {
-  name: 'Cards',
-  props: ['cards'],
-  methods: {
-    path (icon) {
-      console.log(icon.toString())
-      return require('../assets/img/' + icon.toString() + '.png')
-    }
-  }
-}
+  /* export default {
+   *   name: 'Cards',
+   *   props: ['cards'],
+   *   methods: {
+   *     path (icon) {
+   *       console.log(icon.toString())
+   *       return require('../assets/img/' + icon.toString() + '.png')
+   *     }
+   *   }
+   * } */
 </script>
 
 <style scoped>
